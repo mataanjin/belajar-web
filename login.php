@@ -39,7 +39,7 @@ if ($inputs['ok']) {
   </head>
   <body>
   <marquee><p><b>Belajar Web</b></p></marquee>
-  <form action ="tambah.php" method="post">
+  <form method="post">
     <?= $msg . '<br>' ?>
     <fieldset>
       <legend><h1>Please login to the system.</h1></legend>
