@@ -38,20 +38,20 @@ if ($inputs['ok']) {
     </style>
   </head>
   <body>
-  <marquee><p><b>Belajar Web</b></p></marquee>
-  <form method="post">
-    <?= $msg . '<br>' ?>
-    <fieldset>
-      <legend><h1>Please login to the system.</h1></legend>
-      <label>Username :</label><br>
-      <input type="text" name="Username" id="username"><br>
-      <label>Password :</label><br>
-      <input type="text" name="Password" id="password"><br>
-      <br>
+    <marquee><p><b>Belajar Web</b></p></marquee>
+    <form method="post">
+      <?= $msg . '<br>' ?>
+      <fieldset>
+        <legend><h1>Please login to the system.</h1></legend>
+        <label for="username">Username :</label><br>
+        <input type="text" name="Username" id="username"><br>
+        <label for="password">Password :</label><br>
+        <input type="text" name="Password" id="password"><br>
+        <br>
 
-      <input type="submit" name="ok" value="Login">
-    </fieldset>
-  </form>
-</body>
+        <input type="submit" name="ok" value="Login">
+      </fieldset>
+    </form>
+  </body>
 </html>
 
